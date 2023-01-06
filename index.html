@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Çiftlikten Yuvanıza</title>
+  </head>
+
+  <body>
+    <!--header section start-->
+    <header class="header">
+        <a href="#">
+            <img src="images/logo.jpg"  alt="logo" width="100" height="100" />
+        </a>
+        <nav class="navbar">
+          <a href="#home" >Anasayfa</a>
+          <a href="#about" >Hakkında</a>
+          <a href="#urun" >Ürünler</a>
+          <a href="#diger" >Ham Ürünler</a>
+          <a href="#contact" >İletişim</a>
+          <a href="#blog" >Blog</a>
+        </nav>
+        <div class="buttons">
+          <button id="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button id="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+          <button id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="search-form ">
+          <input type="text" class="search-input" id="search-box"
+          placeholder="search here"/>
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/cilekk.jpg" alt="menu" />
+            <div class="content">
+              <h3>Çilek Reçeli</h3>
+              <div class="price">50 TL/-</div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/mısırunu.jpg" alt="menu" />
+            <div class="content">
+              <h3>Mısır Unu</h3>
+              <div class="price">42 TL/-</div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/enginar.jpg" alt="menu" />
+            <div class="content">
+              <h3>Çilek Reçeli</h3>
+              <div class="price">85 TL/-</div>
+            </div>
+          </div>
+          <a href="#" class="btn" style="color: white;">Ödeme Yap</a>
+        </div>
+    </header> 
+    <!--header section end-->
+    <!--home section start-->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Sipariş Vermek İçin</h3>
+        <p>
+          Ürünlerimiz organik olarak yetiştiren çiftçilerimizden satın alınmış olup, özenle siz değerli müşterilerimiz için hazırlanmaktadır.
+        </p>
+        <a href="#" class="btn" style="color: white;">Hemen Al</a>
+      </div>
+    </section>
+    <!--home section end-->
+
+    <!--Ürün section start-->
+    <section class="urun" id="urun">
+      <h1 class="heading"><span>Hazır Ürünlerimiz</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/cilekk.jpg" alt="menu" />
+            <span class="urun-category">Reçel</span>
+            <h3>%100 Doğal Organik Çilek Reçeli</h3>
+            <div class="price">50 TL <span>69.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn" style="color: white;">Sepete Ekle</a>
+
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/kayisi.jpg" alt="menu" />
+            <span class="urun-category">Reçel</span>
+            <h3>%100 Doğal Organik Kayısı Reçeli</h3>
+            <div class="price">50 TL <span>69.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn" style="color: white;">Sepete Ekle</a>
+
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/enginar.jpg" alt="menu" />
+            <span class="urun-category">Konserve</span>
+            <h3>%100 Doğal Organik Enginar Konserve</h3>
+            <div class="price">85 TL <span>95.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn" style="color: white;">Sepete Ekle</a>
+
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/bamya.jpg" alt="menu" />
+            <span class="urun-category">Konserve</span>
+            <h3>%100 Doğal Organik Bamya Konserve</h3>
+            <div class="price">75 TL <span>79.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn" style="color: white;">Sepete Ekle</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Ürün section end-->
+
+    <!--Diğer ürünler section start-->
+    <section class="diger" id="diger">
+      <h1 class="heading"><span>Ham Ürünlerimiz</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Unlar</span>
+            <a href="#" class="name">Mısır Unu</a>
+          </div>
+          <div class="image">
+            <img src="images/mısırunu.jpg" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">42.00 TL</b>
+              <span class="amount">1 KG</span>
+            </div>
+            <div class="diger-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Unlar</span>
+            <a href="#" class="name">Tam Buğday Unu</a>
+          </div>
+          <div class="image">
+            <img src="images/tambugday.jpg" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">50.00 TL</b>
+              <span class="amount">1 KG</span>
+            </div>
+            <div class="diger-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Sebzeler</span>
+            <a href="#" class="name">Organik Fasulye</a>
+          </div>
+          <div class="image">
+            <img src="images/fasulye.jpg" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">34.00 TL</b>
+              <span class="amount">1 KG</span>
+            </div>
+            <div class="diger-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Sebzeler</span>
+            <a href="#" class="name">Organik Domates</a>
+          </div>
+          <div class="image">
+            <img src="images/domates.jpg" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">28.00 TL</b>
+              <span class="amount">1 KG</span>
+            </div>
+            <div class="diger-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Diğer ürünler section end-->
+
+    <!--Hakkımızda section start-->
+    <section class="about" id="about">
+      <h1 class="heading"><span>Hakkımızda</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/ciftlik.jpg" alt="about"/>
+        </div>
+        <div class="content">
+          <h3>Ürünlerimizi Nasıl Elde Ediyoruz?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#" class="btn" style="color: white;">Daha fazlası için</a>
+        </div>
+      </div>
+    </section>
+    <!--Hakkımızda section end-->
+
+    <!--iletişim section start-->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Bizimle İletişime Geçin</span></h1>
+      <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24028.28319846277!2d29.58020883646171!3d41.166488174222884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409e326728811181%3A0x8c46d42b62837f50!2zxZ5pbGUsIMSwc3RhbmJ1bA!5e0!3m2!1str!2str!4v1672729260431!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <h3>İletişimde Kalın</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name"/>
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email"/>
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="Telefon Numarası"/>
+          </div>
+          <input type="submit" class="btn" value="İletişime Geç">
+
+        </form>
+      </div>
+    </section>
+    <!--iletişim section end-->
+    <!--blog section start-->
+    <section class="blog" id="blog">
+      <h1 class="heading"><span>Blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/cilektarif.jpg" alt="blog"/>
+          </div>
+          <div class="content">
+            <a href="#" class="title">Çilek reçeli tarifi</a>
+            <span>By Admin / 8 Haziran 2021</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn" style="color:white">Daha fazlası</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/fasulyetarif.jpg" alt="blog"/>
+          </div>
+          <div class="content">
+            <a href="#" class="title">Taze fasulye tarifi</a>
+            <span>By Admin / 22 Temmuz 2021</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn" style="color:white">Daha fazlası</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/enginartarif.jpg" alt="blog"/>
+          </div>
+          <div class="content">
+            <a href="#" class="title">Enginar tarifi</a>
+            <span>By Admin / 23 Ağustos 2021</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn" style="color:white">Daha fazlası</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--blog section end-->
+    <!--footer section start-->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input"  placeholder="Search"/>
+        <button class="btn btn-primary" style="color: white;">Search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>   
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#" >Anasayfa</a>
+        <a href="#" >Hakkında</a>
+        <a href="#" >Menü</a>
+        <a href="#" >Ürünler</a>
+        <a href="#" >İletişim</a>
+        <a href="#" >Blog</a>
+      </div>
+      <div class="credit">
+        Created by <span>Emine Nur Yahya</span> | all rights reserved
+      </div>
+    </section>
+    <!--footer section end-->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
